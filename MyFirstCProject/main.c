@@ -56,7 +56,9 @@ int main(int argc, const char * argv[]) {
 //    testFOpen();
 //    testFPrint();
 //    readAllFile();
-    testDMethod();
+//    testDMethod();
+//    testFactorial();
+    testFibonacci();
     return 0;
 }
 
