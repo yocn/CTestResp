@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5744CD4B1FA09C23009F9C4F /* testDefine.c in Sources */ = {isa = PBXBuildFile; fileRef = 5744CD491FA09C23009F9C4F /* testDefine.c */; };
+		577710D71FA70138008CA895 /* testRecursion.c in Sources */ = {isa = PBXBuildFile; fileRef = 577710D51FA70138008CA895 /* testRecursion.c */; };
+		577710DA1FA70B25008CA895 /* testVariable.c in Sources */ = {isa = PBXBuildFile; fileRef = 577710D81FA70B25008CA895 /* testVariable.c */; };
+		577710DD1FA71627008CA895 /* testMalloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 577710DB1FA71627008CA895 /* testMalloc.c */; };
 		57816FE31F9E0D850077DE3F /* testStruct.c in Sources */ = {isa = PBXBuildFile; fileRef = 57816FE11F9E0D850077DE3F /* testStruct.c */; };
 		57816FE61F9E25A60077DE3F /* testIO.c in Sources */ = {isa = PBXBuildFile; fileRef = 57816FE41F9E25A60077DE3F /* testIO.c */; };
 		57816FE91F9E2C320077DE3F /* testFile.c in Sources */ = {isa = PBXBuildFile; fileRef = 57816FE71F9E2C320077DE3F /* testFile.c */; };
@@ -29,6 +32,12 @@
 /* Begin PBXFileReference section */
 		5744CD491FA09C23009F9C4F /* testDefine.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testDefine.c; sourceTree = "<group>"; };
 		5744CD4A1FA09C23009F9C4F /* testDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testDefine.h; sourceTree = "<group>"; };
+		577710D51FA70138008CA895 /* testRecursion.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testRecursion.c; sourceTree = "<group>"; };
+		577710D61FA70138008CA895 /* testRecursion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testRecursion.h; sourceTree = "<group>"; };
+		577710D81FA70B25008CA895 /* testVariable.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testVariable.c; sourceTree = "<group>"; };
+		577710D91FA70B25008CA895 /* testVariable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testVariable.h; sourceTree = "<group>"; };
+		577710DB1FA71627008CA895 /* testMalloc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testMalloc.c; sourceTree = "<group>"; };
+		577710DC1FA71627008CA895 /* testMalloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testMalloc.h; sourceTree = "<group>"; };
 		57816FE11F9E0D850077DE3F /* testStruct.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testStruct.c; sourceTree = "<group>"; };
 		57816FE21F9E0D850077DE3F /* testStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testStruct.h; sourceTree = "<group>"; };
 		57816FE41F9E25A60077DE3F /* testIO.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = testIO.c; sourceTree = "<group>"; };
@@ -78,6 +87,12 @@
 				57816FE81F9E2C320077DE3F /* testFile.h */,
 				5744CD491FA09C23009F9C4F /* testDefine.c */,
 				5744CD4A1FA09C23009F9C4F /* testDefine.h */,
+				577710D51FA70138008CA895 /* testRecursion.c */,
+				577710D61FA70138008CA895 /* testRecursion.h */,
+				577710D81FA70B25008CA895 /* testVariable.c */,
+				577710D91FA70B25008CA895 /* testVariable.h */,
+				577710DB1FA71627008CA895 /* testMalloc.c */,
+				577710DC1FA71627008CA895 /* testMalloc.h */,
 			);
 			path = MyFirstCProject;
 			sourceTree = "<group>";
@@ -139,9 +154,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				577710D71FA70138008CA895 /* testRecursion.c in Sources */,
+				577710DA1FA70B25008CA895 /* testVariable.c in Sources */,
 				57816FE31F9E0D850077DE3F /* testStruct.c in Sources */,
 				5744CD4B1FA09C23009F9C4F /* testDefine.c in Sources */,
 				57821CF61F98B3BD000A585B /* main.c in Sources */,
+				577710DD1FA71627008CA895 /* testMalloc.c in Sources */,
 				57816FE61F9E25A60077DE3F /* testIO.c in Sources */,
 				57816FE91F9E2C320077DE3F /* testFile.c in Sources */,
 			);

@@ -58,7 +58,9 @@ int main(int argc, const char * argv[]) {
 //    readAllFile();
 //    testDMethod();
 //    testFactorial();
-    testFibonacci();
+//    testFibonacci();
+//    testVariable();
+    testMalloc();
     return 0;
 }
 
